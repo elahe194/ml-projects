@@ -1,5 +1,5 @@
-trainData = csvread('~/google_drive/acads/ml/assignments/assign_2/auto_train.csv',1);
-testData = csvread('~/google_drive/acads/ml/assignments/assign_2/auto_test.csv',1);
+trainData = csvread('~/Downloads/auto_train.csv',1);
+testData = csvread('~/Downloads/auto_test.csv',1);
 
 trainMpgData = trainData(:,3);
 testMpgData = testData(:,3);
